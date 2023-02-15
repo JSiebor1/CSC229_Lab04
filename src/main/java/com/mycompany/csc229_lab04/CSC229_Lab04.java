@@ -27,7 +27,7 @@ public class CSC229_Lab04 {
         }
     }
 
-    int binarySearch(int[] arr, int low, int high, int x) {
+    public int binarySearch(int[] arr, int low, int high, int x) {
         if (high >= low) {
             int mid = low + (high - low) / 2; // eliminates the other side with adding low
 
